@@ -1,0 +1,2 @@
+# intellicash
+IntelliCash Monorepo
