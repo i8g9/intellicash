@@ -14,10 +14,10 @@ This section contains code and resources related to the machine learning compone
 
 ### Directory Structure
 
-- **`/machine-learning/ai-model`**: Code for the AI model, including training and inference.
-- **`/machine-learning/data-preprocessing`**: Scripts for cleaning and preprocessing training data.
-- **`/machine-learning/training-data`**: Raw and preprocessed data used for training the model.
-- **`/machine-learning/model-artifacts`**: Saved model files and evaluation metrics.
+- **`/ml/ai-model`**: Code for the AI model, including training and inference.
+- **`/ml/data-preprocessing`**: Scripts for cleaning and preprocessing training data.
+- **`/ml/training-data`**: Raw and preprocessed data used for training the model.
+- **`/ml/model-artifacts`**: Saved model files and evaluation metrics.
 
 ### Usage
 
