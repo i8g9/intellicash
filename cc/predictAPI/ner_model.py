@@ -52,6 +52,13 @@ def scan_money(text):
         else:
           if '1' <= temp[i][1] and temp[i][1] <= '9':
             return scan_punctuation(temp[i][1:len(temp[i])])
+      elif len(temp[i]) >= 2 and (temp[i][0] == 'r' or temp[i][0] == 'R') and (temp[i][1] == 'P' or temp[i][1] == 'p'):
+        if len(temp[i]) == 2:
+          if '1' <= temp[i+1][0] and temp[i+1][0] <= '9':
+            return scan_punctuation(temp[i+1])
+        else:
+          if '1' <= temp[i][2] and temp[i][2] <= '9':
+            return scan_punctuation(temp[i][2:len(temp[i])])
     return None
 
 def make_prediction(model, tokenizer, text, key_value_function, keyword, splitted_keyword):
